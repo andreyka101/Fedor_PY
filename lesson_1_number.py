@@ -37,14 +37,18 @@
 # num_1 = 2 + 2
 # num_2 = 2 - 2
 # num_3 = 2 * 2
+# степень 
 # num_4 = 2 ** 2
 
-# num_5 = 10 / 3
-# num_6 = 10 // 3
-# num_7 = 10 % 3
-# print(num_5)
-# print(num_6)
-# print(num_7)
+# обычное деление 
+num_5 = 10 / 3
+# деление без остатка
+num_6 = 10 // 3
+# остаток от деление
+num_7 = 10 % 3
+print(num_5)
+print(num_6)
+print(num_7)
 
 
 
@@ -78,5 +82,6 @@
 
 
 
-print("hello")
-input("-5-")
+
+# print("hello")
+# input("-5-")
