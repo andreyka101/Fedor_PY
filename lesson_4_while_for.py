@@ -114,3 +114,44 @@ for y in range(10):
 # (отличаются сложностью и количеством вопросов). Вывести пользователю оценку его знаний.
 
 # Задание 4. Вывести на экран ромб из звездочек.
+
+
+
+
+
+
+# Задание 1.
+# purchase_amount = 0
+# end_bool = True
+# milk = 5
+# bread = 9
+# sugar = 7
+# while(end_bool):
+#     print("товары: \n     молоко\n     хлеб\n     сахар")
+#     product = input("str = __")
+#     product_number = int(input("num = __"))
+#     if(product == "молоко" and milk > 0):
+#         if(product_number >= milk):
+#             purchase_amount+=120  * milk
+#             milk = 0
+#         else:
+#             purchase_amount+=120  * product_number
+#             milk -= product_number
+    
+#     end_bool = bool(input("bool = __"))
+
+
+
+
+# Задание 4
+# for x in range(1,11):
+#     if(x == 1 or x == 10):
+#         print("    +    ")
+#     if(x == 2 or x == 9):
+#         print("   +++   ")
+#     if(x == 3 or x == 8):
+#         print("  +++++  ")
+#     if(x == 4 or x == 7):
+#         print(" +++++++ ")
+#     if(x == 5):
+#         print("+++++++++")
