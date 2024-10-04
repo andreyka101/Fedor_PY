@@ -64,3 +64,24 @@ print(arr[1][2])
 # б) сколько раз температура воздуха опускалась нижеуказанной метки.
 
 
+
+
+
+# решение Задание 4
+arr_list = []
+for i in range(12):
+    arr_list.append(int(input(f'Прибыль за {i + 1} месяц: ')))
+
+index_max = 0
+index_min = 0
+number_max = arr_list[0]
+number_min = arr_list[0]
+for i in range(len(arr_list)):
+    if(number_max < arr_list[i]):
+        index_max = i
+        number_max = arr_list[i]
+    if(number_min > arr_list[i]):
+        index_min = i
+        number_min = arr_list[i]
+
+print(index_min, index_max)
