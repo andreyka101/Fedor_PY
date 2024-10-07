@@ -77,3 +77,11 @@ print(arr_list)
 # https://pythonist.ru/python-spiski-zadachi-dlya-nachinayushhih/
 
 
+
+
+arr_list = [1,2,4,5 ,7 , 4 ,1]
+index = len(arr_list) 
+while index != 0:
+    print(arr_list[-1])
+    index -= 1
+    arr_list.pop()
