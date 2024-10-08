@@ -19,7 +19,7 @@ print(arr_list)
 # print(arr_list.index(4,3))
 
 
-# arr.extend(x) - Возвращает количество элементов со значением x
+# arr.count(x) - Возвращает количество элементов со значением x
 # print(arr_list.count(4))
 
 
