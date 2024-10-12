@@ -114,6 +114,14 @@ if_dist_obj["r"] = "67r76"
 print(if_dist_obj)
 
 
+print("if_dist_obj.items()")
+print(if_dist_obj.items())
+for key_i , val_x in if_dist_obj.items():
+    print("key -", key_i , "value -" , val_x)
+for i in if_dist_obj:
+    print(i)
+
+
 
 
 #NOTE - дз
@@ -127,7 +135,7 @@ print(if_dist_obj)
 
 
 # средняя сложность задание 3
-# Создайте словарь из строки 'pythonist' следующим образом: 
+# Создайте словарь из строки 'hello python' следующим образом: 
 # в качестве ключей возьмите символ строки, 
 # а значениями пусть будет индекс символа
 
