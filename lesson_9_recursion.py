@@ -92,3 +92,28 @@
 # номер 5
 # Напишите функцию которая принимает список чисел и строк и возвращает список с удалёнными строками
 
+
+
+
+
+# номер 4
+# def creat_dist(arr_key , arr_value , index = 0 , dist_save = {}):
+#     if(len(arr_key) != len(arr_value)):
+#         return {}
+#     dist_save[arr_key[index]] = arr_value[index]
+#     print(dist_save)
+#     if(len(arr_key) -1 == index):
+#         print("=======")
+#         return dist_save
+#     return creat_dist(arr_key , arr_value , index+1)
+    
+
+# print(creat_dist(["1k","2k","3k"] , [1,2,3]))
+
+
+
+
+num = "4"
+print(type(num))
+if(type(num) == str):
+    print("okkkk")
