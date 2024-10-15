@@ -117,3 +117,20 @@ num = "4"
 print(type(num))
 if(type(num) == str):
     print("okkkk")
+
+
+# номер 6
+# написать функцию которая принимает строку и изменять её вставляя после каждого символа строки "^"
+# пример: 
+    # функция принимает "123456" 
+    # функция возвращает "1^2^3^4^5^6"
+
+
+# номер 7
+# написать функцию которая принимает строку и число ,
+#  функцию возвращает строку умноженную на число нельзя использовать умножение
+
+
+# доп задачи:
+# (внизу) https://proglib.io/p/samouchitel-po-python-dlya-nachinayushchih-chast-13-rekursivnye-funkcii-2023-01-23
+# https://w3resource.com/python-exercises/data-structures-and-algorithms/python-recursion.php
