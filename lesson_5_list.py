@@ -17,7 +17,7 @@ print(randint(2,10))
 # arr.append("rtt")
 # print(arr)
 # arr = [1 , 5, 2.8 , 9 , "hi" , True , 2.8]
-# append(x) - удаляет первый попавшийся элемент x
+# remove(x) - удаляет первый попавшийся элемент x
 # arr.remove(2.8)
 # print(arr)
 
