@@ -113,10 +113,10 @@
 
 
 
-num = "4"
-print(type(num))
-if(type(num) == str):
-    print("okkkk")
+# num = "4"
+# print(type(num))
+# if(type(num) == str):
+#     print("okkkk")
 
 
 # номер 6
@@ -134,3 +134,16 @@ if(type(num) == str):
 # доп задачи:
 # (внизу) https://proglib.io/p/samouchitel-po-python-dlya-nachinayushchih-chast-13-rekursivnye-funkcii-2023-01-23
 # https://w3resource.com/python-exercises/data-structures-and-algorithms/python-recursion.php
+
+
+
+
+
+# def func(stroka = '', num = 0 , answer = ""):
+#     if num > 0:
+#         answer += stroka
+#         return func(stroka, num -1 , answer)
+#     else: 
+#         return answer
+
+# print(func('abc', 5))

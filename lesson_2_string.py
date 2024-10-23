@@ -83,11 +83,15 @@ print(str_var_3)
 # https://okpython.net/python/python_zadachnik/python_zadachnik.html#ex_2
 
 
-year = int(input('Введите год: '))
+# year = int(input('Введите год: '))
 # days = 365 + (((year % 4 == 0) + (year % 100 != 0) + (year % 400 == 0)) -1 )
 # print(f'In {year} year = {days} days')
 
-days = year % 4 
-print(days)
+# days = year % 4 
+# print(days)
+
+
+
+
 
 
