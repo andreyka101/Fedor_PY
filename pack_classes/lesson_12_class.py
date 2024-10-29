@@ -33,7 +33,7 @@ dog_sharik = Dogs("sharik")
 
 # print(type(dog_sharik))
 
-# получаем переменный класса
+# получаем переменную класса
 # print(dog_sharik.num)
 # print(dog_sharik.name)
 
