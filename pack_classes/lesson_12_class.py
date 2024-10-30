@@ -74,3 +74,21 @@ print(dog_sharik.eat_num)
 # создать метод для добавления числа (его можно вызвать много раз и подучить много чисел)
 
 
+
+
+
+# class Auto():
+#     def __init__(self , brand):
+#         self.brand = brand
+#         self.model = 'm5'
+#         self.year = '2020'
+#         self.speed = '150 km/h'
+#     def info(self):
+#         print(f'Brand: {self.brand}\nModel: {self.model}\nYear: {self.year}\nSpeed: {self.speed}')
+#     def calc(self):
+#         self.speed = 150
+#         distance = int(input('Введите расстояние: '))
+#         total = distance/self.speed
+#         print(f'Время для преодоления расстояния равно: {round(total,1)} часов')
+
+# s = Auto()
