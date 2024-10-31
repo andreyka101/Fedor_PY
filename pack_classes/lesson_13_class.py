@@ -1,6 +1,9 @@
+
+# класс родитель
 class Animals():
     def __init__(self , name = "w"):
         self.num = 2
+        # пишем в начале __ для создания приватной переменной или метода
         self.__num_priv = 3
         self.name = name
         print("start Animals")
@@ -59,8 +62,11 @@ dog = Animals("all")
 
 
 
+# наследуем класс Animals
+# в наследуемом классе можно создавать свои переменные и методы
 class Cats(Animals):
     def __init__(self, name_cat):
+        # вызываем метод
         super().__init__(name_cat)
         self.name = name_cat + "oooooo"
         print("ooooopop")
