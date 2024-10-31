@@ -85,3 +85,7 @@ cat.sleep()
 print(cat.num)
 
 cat.i_metod()
+
+
+
+
