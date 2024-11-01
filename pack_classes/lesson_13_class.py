@@ -1,3 +1,4 @@
+from lesson_12_class import Dogs
 
 # класс родитель
 class Animals():
@@ -104,3 +105,17 @@ cat.i_metod()
 
 
 
+
+
+class All_class():
+    def __init__(self , text_all):
+        self.animals = Animals(text_all)
+        self.dogs = Dogs(text_all)
+
+
+
+print('All_class("jon")')
+num_all = All_class("jon")
+
+num_all.animals.i_metod()
+print(num_all.dogs.num)
