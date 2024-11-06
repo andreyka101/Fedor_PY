@@ -65,6 +65,38 @@
 
 
 
+# open_file_9 = open("i_file.txt" , "a")
+# open_file_9.write("12555")
+# open_file_9.close()
+
+
+
+# read_file = open("i_file.txt" , "r").read()
+# with open("i_file.txt" , "w") as open_file_10:
+#     open_file_10.write(read_file+ " = " + read_file)
+    
+# print(open("i_file.txt" , "r").read())
+
+
+
+
+# read_file_2 = open("i_file.txt" , "r").read()
+# read_file_2 = [open("i_file.txt" , "r").read()]
+# print(read_file_2)
+
+
+
+# read_file_3 = open("i_file.txt" , "r").readlines()
+# print(read_file_3)
+
+
+
+# read_file_4 = open("i_file.txt" , "r").read()
+# read_arr = read_file_4.split("\n")
+# print(read_arr)
+
+
+
 
 
 

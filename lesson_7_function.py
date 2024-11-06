@@ -94,11 +94,11 @@
 
 
 #FIXME - функция в функции
-# def fun_10():
-#     print("start")
-#     def fun_local():
-#         print("start_local")
-#     fun_local()
+def fun_10():
+    print("start")
+    def fun_local():
+        print("start_local")
+    fun_local()
     
 
 # fun_10()
