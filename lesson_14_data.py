@@ -65,13 +65,16 @@
 
 
 
+# пример открытия на дозапись
 # open_file_9 = open("i_file.txt" , "a")
 # open_file_9.write("12555")
 # open_file_9.close()
 
 
 
+
 # read_file = open("i_file.txt" , "r").read()
+# with - также его можно использовать для чтения файла
 # with open("i_file.txt" , "w") as open_file_10:
 #     open_file_10.write(read_file+ " = " + read_file)
     
@@ -86,11 +89,14 @@
 
 
 
+# метод .readlines() каждую строку txt файла превращает в элемент массива
+# он возвращает массив
 # read_file_3 = open("i_file.txt" , "r").readlines()
 # print(read_file_3)
 
 
 
+# .split(s) - разделяет строку по строке s
 # read_file_4 = open("i_file.txt" , "r").read()
 # read_arr = read_file_4.split("\n")
 # print(read_arr)
