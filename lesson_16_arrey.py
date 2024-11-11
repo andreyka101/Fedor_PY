@@ -9,7 +9,8 @@ from array import array
 # array(r , s)
 # r - режим массива (размер каждой ячейки в массиве , таблица в ссылке)
 # s - список (можно не писать)
-arr = array("b" , [100,2,3])
+# arr = array("b" , [100,2,3])
+# arr = array("b")
 # print(arr)
 # print(arr[0])
 # print(type(arr))
@@ -51,21 +52,65 @@ arr = array("b" , [100,2,3])
 
 
 
-# на уроке расскажу
-with open("i_file.txt" , "br") as file_open:
-    arr.fromfile(file_open , 1)
-    print(arr)
+# arr = array("i" , [1,2])
+# print(arr.tobytes())
+
+
+
+# arr = array("i")
+# arr.frombytes(bytes("\x01\x00\x00\x00\x02\x00\x00\x00" , encoding="utf-8"))
+# print(arr)
+
+
+
+# arr = array("i" , [6,5,3,9])
+# with open("i_file.txt" , "bw") as file_open:
+
+#     arr.tofile(file_open)
+#     print(arr)
+
+
+
+# with open("i_file.txt" , "rb") as file_open:
+#     arr = array("i")
+#     arr.fromfile(file_open , 2)
+#     print(arr)
+
+
+
+arr = array("i" , [1,2])
+# arr.fromlist([8,5,3])
+# print(arr)
+
+
+
+# arr_list = arr.tolist()
+# print(arr_list)
+# print(arr)
+
+
+
+# def arr_sort(arr_loc):
+#     for i in range(len(arr_loc)):
+#         for num_index in range(len(arr_loc) -1):
+#             if(arr_loc[num_index] > arr_loc[num_index + 1]):
+#                 sive_num = arr_loc[num_index]
+#                 arr_loc[num_index] = arr_loc[num_index + 1]
+#                 arr_loc[num_index + 1] = sive_num 
+#     return arr_loc
+
+
+# arr = array("i" , [7,3,8,1,8,5,10,5,4])
+# print(arr)
+# print(arr_sort(arr))
+
+
+
+            
+                
 
 
 
 
 
 
-
-
-
-
-#FIXME - на уроке расскажу
-# array.byteswap()
-# array.frombytes(b) - делает массив array из массива байт. Количество байт должно быть кратно размеру одного элемента в массиве.
-# arr.extend(iter) - добавление элементов из объекта в массив.
