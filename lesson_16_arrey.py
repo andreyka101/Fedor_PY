@@ -52,25 +52,28 @@ from array import array
 
 
 
+# .tobytes() - преобразовывает к байтам
 # arr = array("i" , [1,2])
 # print(arr.tobytes())
 
 
-
+# frombytes(x) - делает массив из байт
+# bytes(b, r) - превращает строку (b) в байты для работы нужно указать кодировку (r)
 # arr = array("i")
 # arr.frombytes(bytes("\x01\x00\x00\x00\x02\x00\x00\x00" , encoding="utf-8"))
 # print(arr)
 
 
 
+# .tofile(f) - сохраняет массив в открытый файл (f) , файл сохраняется в байтах
 # arr = array("i" , [6,5,3,9])
 # with open("i_file.txt" , "bw") as file_open:
-
 #     arr.tofile(file_open)
 #     print(arr)
 
 
 
+# .fromfile(f , n) - записывает (n) чисел из (f) файла в массив , числа в файле должны быть в байтах
 # with open("i_file.txt" , "rb") as file_open:
 #     arr = array("i")
 #     arr.fromfile(file_open , 2)
@@ -78,18 +81,21 @@ from array import array
 
 
 
+# .fromlist() - добавление элементов из списка
 arr = array("i" , [1,2])
 # arr.fromlist([8,5,3])
 # print(arr)
 
 
 
+# .tolist() - преобразование массива в список
 # arr_list = arr.tolist()
 # print(arr_list)
 # print(arr)
 
 
 
+# сортировка пузырьком
 # def arr_sort(arr_loc):
 #     for i in range(len(arr_loc)):
 #         for num_index in range(len(arr_loc) -1):

@@ -74,7 +74,7 @@
 
 
 # read_file = open("i_file.txt" , "r").read()
-# with - также его можно использовать для чтения файла
+# with - сам закрывает файл 
 # with open("i_file.txt" , "w") as open_file_10:
 #     open_file_10.write(read_file+ " = " + read_file)
     

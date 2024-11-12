@@ -44,10 +44,10 @@ dog_sharik = Dogs("sharik")
 # print(dog_sharik.run)
 
 
-print(dog_sharik.eat_num)
+# print(dog_sharik.eat_num)
 # метод меняет переменную eat_num
-dog_sharik.eat_fun(9)
-print(dog_sharik.eat_num)
+# dog_sharik.eat_fun(9)
+# print(dog_sharik.eat_num)
 
 
 
