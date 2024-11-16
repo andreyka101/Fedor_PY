@@ -7,12 +7,15 @@ window.config(bg="#979797")
 
 
 
+# ввод данных
 inp_enter = Entry()
 inp_enter.place(x=20 , y=20 , height=30 , width=200)
 
 
 def fun_in_1():
-    # inp_enter.insert(0, "Hello World")
+    # inp_enter.insert(0, "Hello World") # добавляет "Hello World" в конец
+    
+    # inp_enter.get() - возвращает текст Entry
     print(inp_enter.get())
     if(inp_enter.get() != ""):
         lab_text.config(text=inp_enter.get())
