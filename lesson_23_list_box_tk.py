@@ -3,12 +3,11 @@ from tkinter import *
 
 window = Tk()
 window.title("window")
-# меняем ширину высоту и координаты окна
 window.geometry("600x500")
-# цвет окна
 window.config(bg="#facca6")
 
 
+# Listbox - 
 arr = [1,2,3,4,5]
 list_box_lab = Listbox(listvariable = Variable(value=arr))
 list_box_lab.place(x=10 , y = 10)
