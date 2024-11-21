@@ -17,6 +17,7 @@ def fun_1():
     else :
         window.config(bg="#facca6")
 
+# в num_data хранится положения Checkbutton
 num_data = IntVar()
 check_box_but = Checkbutton(text="click" , variable = num_data , command=fun_1)
 check_box_but.place(x=10 , y=10)
