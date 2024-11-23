@@ -11,11 +11,13 @@ window.config(bg="#facca6")
 # Listbox - Отображение списка в интерфейсе 
 arr = ["python","java","c++","typeScript"]
 
+# Combobox - это совмищение Listbox и Entry
 comboBox_1 = ttk.Combobox(values=arr , font= ("MV Boli" , 15))
 comboBox_1.place(x = 10 , y = 10)
 
 
 def fun_1():
+    # comboBox_1.get() - получаем значение 
     lab_text.config(text = comboBox_1.get())
 button_b1 = Button(text="but click" , command = fun_1)
 button_b1.place(x=20 , y=150)
