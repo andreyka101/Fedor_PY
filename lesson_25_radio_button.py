@@ -2,6 +2,7 @@
 from tkinter import *
 from tkinter import ttk
 
+
 window = Tk()
 window.title("window")
 window.geometry("600x500")
