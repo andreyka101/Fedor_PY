@@ -8,16 +8,16 @@ window.config(bg="#facca6")
 
 
 
-# main_menu = Menu()
+main_menu = Menu()
 
-# file_menu = Menu(main_menu , takefocus= 0)
-# # file_menu.add_command(label="открыть" , command=)
-# file_menu.add_command(label="новый")
-# file_menu.add_command(label="выход")
+file_menu = Menu(main_menu , tearoff=0)
+# file_menu.add_command(label="открыть" , command=)
+file_menu.add_command(label="новый")
+file_menu.add_command(label="выход")
 
 
-# main_menu.add_cascade(label="файл" , menu=file_menu)
-# window.config(menu=main_menu)
+main_menu.add_cascade(label="файл" , menu=file_menu)
+window.config(menu=main_menu)
 
 
 window.mainloop()
