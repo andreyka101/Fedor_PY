@@ -8,6 +8,7 @@ window.config(bg="#facca6")
 
 
 
+# num_scale - значение Scale
 def fun(num_scale):
     num_x =int(float(num_scale))
     lab_text.config(text= "ответ: " + str(num_x))
@@ -16,7 +17,11 @@ def fun(num_scale):
 
 
 
-# scale_1 = ttk.Scale(orient=VERTICAL , )
+# ползунок
+# length = длина ползунока
+# from_ = старт
+# to = конец
+# value = значение по умолчанию
 scale_1 = ttk.Scale(orient=VERTICAL , length=200 , from_= 1 , to= 300 , value = 50 ,command=fun)
 scale_1.place(x=20 , y=20)
 
