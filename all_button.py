@@ -3,7 +3,7 @@ window = Tk()
 window.geometry("600x500")
 
 
-button_1 = Button(text="button 1")
+button_1 = Button(text="button 1" , border=0)
 button_1.place(x=30 , y= 30)
 button_2 = Button(text="button 2")
 button_2.place(x=30 , y= 60)
