@@ -26,6 +26,10 @@ lab_text_2 = Label(text="www2" , font= ("MV Boli" , 15))
 # anchor позиционирование относительно окна
 lab_text_2.place(relx=0.5, rely=0.5 , anchor="center")
 
+lab_text_x = Label(text="ebfbfb" , font= ("MV Boli" , 15))
+# anchor позиционирование относительно окна
+lab_text_x.place(relx=0.5, rely=0.8 , anchor="center")
+
 
 
 num_f_1_glogal = 10
