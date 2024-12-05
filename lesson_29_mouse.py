@@ -7,6 +7,7 @@ window.config(bg="#facca6")
 
 
 
+# во всех обработках мыши можно смотреть координаты
 def mouse_motion(event):
     # lab_text.config(text=event)
     # lab_text.config(text=str(event.x) + " / " + str(event.y))
@@ -29,18 +30,28 @@ def mouse_b3(event):
 
 
 def mouse_wheel(event):
-    # lab_text.config(text=event)
-    lab_text.config(text=event.delta)
+    lab_text.config(text=event)
+    # lab_text.config(text=event.delta)
     lab_text.place(y= event.delta + 200)
 
 
 
 
+# обработчик движения мыши
 window.bind("<Motion>" , mouse_motion)
+
+# обработчик нажатия лкм
 window.bind("<Button-1>" , mouse_b1)
+
+# обработчик нажатия колёсика
 window.bind("<Button-2>" , mouse_b2)
+
+# обработчик нажатия лкм
 window.bind("<Button-3>" , mouse_b3)
+
+# обработчик вращения колёсика
 window.bind("<MouseWheel>" , mouse_wheel)
+
 
 
 lab_text = Label(text="ответ:", bg="#fcf3d9" , fg = "#2e263a" , font=("Arial" , 16))

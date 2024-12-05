@@ -21,7 +21,9 @@ lab_text_2.place(x=20 , y=250)
 num=0
 def click(event):
     # lab_text_1.config(text=event.widget)
+    # получаем элемент 
     button_element = event.widget
+    # получаем текст элемента
     lab_text_1.config(text=button_element["text"])
     global num
     if(button_element["text"] == "button 1"):

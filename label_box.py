@@ -29,7 +29,11 @@ def but_L(event):
     # print(window.winfo_pointerxy())
     # print(window.winfo_pointerxy()[0])
 
+
+    # получаем координаты клика относительно винды
     x,y = window.winfo_pointerxy()
+
+    # получаем элемент
     lab_text.config(text=window.winfo_containing(x , y))
     element_id = window.winfo_containing(x , y)
     # print(type(window.winfo_containing(x , y)))
