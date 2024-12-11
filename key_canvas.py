@@ -35,6 +35,8 @@ def fun_press(event):
     if(event.keysym == "w"):
         square_obj["y1"] -= 50
         square_obj["y2"] -= 50
+    
+    # пример рендера картинки
     canV.create_rectangle(0 , 0 , 600 , 500 , fill="#ffffff"  , width=0)
     canV.create_rectangle(square_obj["x1"] , square_obj["y1"] , square_obj["x2"] , square_obj["y2"] , fill="#f21a1a"  , width=0)
 
