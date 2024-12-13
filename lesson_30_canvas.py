@@ -32,7 +32,7 @@ canV.place(x=0,y=0)
 # fill = цвет
 # width = толщина рамки
 # outline = цвет рамки
-canV.create_polygon(20 , 40 , 200 , 250 , 400 , 300 , 20,400 , fill="#af1bbc" ,width=10 , outline="#1da7e2")
+# canV.create_polygon(20 , 40 , 200 , 250 , 400 , 300 , 20,400 , fill="#af1bbc" ,width=10 , outline="#1da7e2")
 
 
 
@@ -54,7 +54,7 @@ canV.create_polygon(20 , 40 , 200 , 250 , 400 , 300 , 20,400 , fill="#af1bbc" ,w
 # font = размер и шрифт
 # text = текст
 # justify = выравнивание текста
-# canV.create_text(300 , 300,text = "Hello eofkek eeff\n iriri\nrreufheuhfeuhf" ,font="Boli 15" , fill="#5e0909" , justify="center")
+# canV.create_text(300 , 300,text = "Hello eofkek eeff\n iriri\nrreufheuhfeuhf" ,font="Boli 15" , fill="#25cb0b" , justify="center")
 
 
 
