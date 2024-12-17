@@ -22,6 +22,7 @@ def fun_b1(event):
         # создаём oval
         canV.create_oval(event.x , event.y , event.x + 20 , event.y + 20 , fill="#232323" ,width=0 , outline="#1da7e2")
 canV.bind("<Motion>" , fun_b1)
+# canV.bind("<B1-Motion>" , fun_b1)
 
 
 # нажатие кнопки
