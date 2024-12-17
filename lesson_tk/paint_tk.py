@@ -9,6 +9,7 @@ window.config(bg="#00de59")
 
 
 
+# создаём фото
 # image = Image.open("image_1.jpg")
 image = Image.open("pho_2.png")
 photo = ImageTk.PhotoImage(image)
