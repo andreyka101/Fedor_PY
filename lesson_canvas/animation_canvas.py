@@ -38,4 +38,4 @@ while(save_time+200 != our_time):
 
 
 
-# window.mainloop()
+window.mainloop()
