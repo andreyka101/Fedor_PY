@@ -8,8 +8,9 @@ window.geometry("600x500")
 window.config(bg="#facca6")
 
 
-# Listbox - Отображение списка в интерфейсе 
+
 arr = ["python","java","c++","typeScript"]
+
 
 # Combobox - это совмищение Listbox и Entry
 comboBox_1 = ttk.Combobox(values=arr , font= ("MV Boli" , 15))
