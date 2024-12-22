@@ -33,7 +33,7 @@ print(arr_list)
 # print(arr_list)
 
 
-# arr.insert(i, x) - Вставляет на i-ый элемент значение x
+# arr.insert(i, x) - Вставляет на i индекс элемент x
 # arr_list.insert(5,999)
 # print(arr_list)
 
