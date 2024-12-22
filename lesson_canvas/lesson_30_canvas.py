@@ -20,7 +20,7 @@ canV.place(x=0,y=0)
 
 
 
-# create_line - создать квадрат
+# create_rectangle - создать квадрат
 # fill = цвет
 # width = толщина рамки
 # outline = цвет рамки
@@ -28,7 +28,7 @@ canV.place(x=0,y=0)
 
 
 
-# create_line - создать многоугольник
+# create_polygon - создать многоугольник
 # fill = цвет
 # width = толщина рамки
 # outline = цвет рамки
@@ -41,7 +41,7 @@ canV.place(x=0,y=0)
 
 
 
-# create_line - создать овал или круг
+# create_oval - создать овал или круг
 # fill = цвет
 # width = толщина рамки
 # outline = цвет рамки
@@ -49,7 +49,7 @@ canV.place(x=0,y=0)
 
 
 
-# create_line - создать текст
+# create_text - создать текст
 # fill = цвет
 # font = размер и шрифт
 # text = текст
