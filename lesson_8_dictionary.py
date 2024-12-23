@@ -25,11 +25,11 @@ print(obj_arr[2])
 
 #NOTE - metods
 
-#FIXME - очищает словарь
+#FIXME - возвращает копию словаря
 obj_arr_2 = obj_arr.copy() 
 
 
-#FIXME - возвращает копию словаря
+#FIXME - очищает словарь
 obj_arr.clear()
 print(obj_arr)
 
@@ -50,7 +50,7 @@ print(obj.keys())
 print(obj.values())
 
 
-#FIXME - удаляет по ключ и возвращает значение
+#FIXME - удаляет по ключу и возвращает значение
 # num = obj.pop("5")
 # print(num)
 # print(obj)
