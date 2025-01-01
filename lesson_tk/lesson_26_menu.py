@@ -55,6 +55,8 @@ file_menu.add_cascade(label="number" , menu=number_menu)
 
 main_menu.add_cascade(label="файл" , menu=file_menu)
 main_menu.add_cascade(label="number" , menu=number_menu)
+
+# подключение главного меню
 window.config(menu=main_menu)
 
 
