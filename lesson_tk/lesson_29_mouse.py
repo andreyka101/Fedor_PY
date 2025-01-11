@@ -46,7 +46,7 @@ window.bind("<Button-1>" , mouse_b1)
 # обработчик нажатия колёсика
 window.bind("<Button-2>" , mouse_b2)
 
-# обработчик нажатия лкм
+# обработчик нажатия пкм
 window.bind("<Button-3>" , mouse_b3)
 
 # обработчик вращения колёсика
