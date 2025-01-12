@@ -14,7 +14,7 @@ str_num = "5"
 
 
 # match делает одну проверку и сразу возвращает нужный case
-match (str_num):
+match(str_num):
     case("q"):
         print("ok q")
     case("w"):
