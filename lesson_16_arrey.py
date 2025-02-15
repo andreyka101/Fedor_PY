@@ -18,7 +18,7 @@ from array import array
 
 
 # массив с плавающей точкой
-# arr_2 = array("f" , [100.333,2,3])
+arr_2 = array("f" , [100.333,2,3])
 # print(arr_2)
 # print(arr_2[0])
 # print(type(arr_2))

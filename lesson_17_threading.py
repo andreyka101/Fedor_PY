@@ -16,8 +16,6 @@ def fun_1():
 
 
 
-
-
 # пример с потоком
 # threading.Thread - создание потока
 thread_1 = threading.Thread(target=fun_1)
